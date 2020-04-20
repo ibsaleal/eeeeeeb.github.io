@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Copper Plate;
+  padding: 10px;
+  background: #f1f1f1;
+  font-size: 30px;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #e25eff;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: center;
+  width: 100%;
+  text-align: left;
+}
+
+
+
+/* Media - image */
+.media {
+  background-color: #aaa;
+  width: 100%;
+  padding: 50px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 100px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn{   
+    width: 100%;
+    padding: 0;
+    text-align: left;
+
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head> 
+
+<body>
+
+<div class="header">
+  <h1>ISABELLA SZIRACZKY</h1>
+  <h3>VIRTUAL GALLERY</h3>
+</div>
+
+<div class="topnav">
+  <a href="portfolio2.html">PORTFOLIO</a>
+  <a href="artist_statement.html">ARTIST STATEMENT</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="index_1columnAside.html">HOME</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>ARTIST STATEMENT</h2>
+      <p> Isabella G. Sziraczky (b. 1996) is a visual artist from the San Francisco Bay Area. Born to Hungarian parents, she is influenced by Eastern European art and culture. She incorporates Hungarian language and traditional embroidery aesthetics into her work. Sziraczky specializes in oil painting, printmaking, drawing, and collage. She is currently finishing up her Bachelor of Fine Arts degree with a focus in two-dimensional art at San Jose State University and plans on obtaining a Master's Degree in Art Therapy in the future.
+      Her creative process is greatly inspired by music. She played classical piano and danced while growing up. Being active in performing arts allowed her to express herself creatively and discover her passion for visual art. She creates artwork through a process of self-reflection and emotional processing. Fascinated by color interactions, she explores how colors influence our emotions and visual perceptioin. Being able to depict her insights allows viewers the opportunity to observe her emotions affiliated with certain ecperiences. She combines elements of surrealistic figures with abstracted spaces and forms to challenge perceptions of reality. Many of her compostitions and designs are inspired by organic materials and natural structures found throughout Northern California, particularly marine and forest environments. She enjoys experimenting with non-traditional materials and processes to create collages, paintings, and prints. She strives to create artistic pieces that reflect on the highs and lows of my experiences throuh early adulthood. </p>
+     
+      </div>
+    </div>
+
+<div class="footer">
+	<h2>Footer</h2>
+</div>
+
+
+
+</body>
+
+</html>
